@@ -10,9 +10,6 @@ const app = express();
 // Dynamically change port
 const PORT = process.env.PORT || 3000;
 
-// Import the file system module
-const fileHandler = require('fs');
-
 const bodyParser = require('body-parser');
       app.use(bodyParser.urlencoded({ extended: true }))
       app.use(bodyParser.json())
