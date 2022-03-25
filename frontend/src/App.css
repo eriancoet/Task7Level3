@@ -1,0 +1,27 @@
+body {
+  align-items: center;
+  display: inline;
+
+}
+
+a {
+  color: #FFF;
+}
+a:hover {
+   color: rgb(250, 144, 144)
+}
+
+.projectList {
+  background-color: rgb(238, 249, 253);
+  padding: 3%;
+  margin:auto
+}
+
+.editProject {
+  padding: 3%;
+  margin-top: 5%;
+}
+
+.addProject {
+  padding: 3%;
+}

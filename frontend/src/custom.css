@@ -1,0 +1,29 @@
+.div-Frame  {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 5%;
+}
+
+.ProjectAddForm {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 5%;
+}
+
+.form-delete {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 5%;
+}
+
+.ProjectUpdateForm {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 5%;
+}
+#updateDescription, #ID, #addDescription {
+    margin-bottom: 7px;
+}
+.btn {
+    position: relative;
+    margin: 0.2rem;
+}
+
+
+
