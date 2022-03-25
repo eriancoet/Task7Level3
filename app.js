@@ -8,7 +8,7 @@ const dataPath = './data.json'
 const app = express();
 
 // Dynamically change port
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 
 // Import the file system module
 const fileHandler = require('fs');
