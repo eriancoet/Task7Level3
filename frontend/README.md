@@ -1,6 +1,6 @@
 # This project is for HyperionDev Bootcamp
 
-Task 19 Level 2 of Full Stack Web Development
+Task 7 Level 3 of Full Stack Web Development
 
 ## Index
 
@@ -20,5 +20,5 @@ Edit button updates the project information.
 
 ### `Project description`
 
-This project is a simple CRUD app example using express.js, node.js and react.js, with all in javascript the system becomes more integrated and accesable, java was used before but because of complications javascript became more preferable. As such node is becoming the prefered library for the server side application programming language.
+This project is a simple CRUD app example using express.js, node.js, react.js and mongodb, with all in javascript the system becomes more integrated and accesable, java was used before but because of complications javascript became more preferable. As such node is becoming the prefered library for the server side application programming language.
 

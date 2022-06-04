@@ -1,27 +1,142 @@
+/* HyperionDev level 3 task 7 - Stylsheet */
 body {
+  font-family: ui-monospace;
+  align-content: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f4edb0;
+}
+
+.Button {
+  margin: 5px;
+}
+
+.logo {
+  height: 70px;
+  width: auto;
+}
+.header {
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  display: inline;
-
+  padding: 0.5rem;
+  border-bottom: 1px solid #808080;
+  background-color: rgb(38, 162, 29);
+  color: #F0FFFF;
 }
 
-a {
-  color: #FFF;
-}
-a:hover {
-   color: rgb(250, 144, 144)
+.header h1 {
+  font-size: 2rem;
+  margin: 0rem 0rem 0rem 1rem;
 }
 
-.projectList {
-  background-color: rgb(238, 249, 253);
-  padding: 3%;
-  margin:auto
+/* --------------------------------------- 
+Red paragraph */
+.redPara {
+  color: red;
 }
 
-.editProject {
-  padding: 3%;
-  margin-top: 5%;
+.formsRow {
+  display: flex;
+  flex-direction: row;
 }
 
-.addProject {
-  padding: 3%;
+.formsCol {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+}
+
+/* Style to space inputs in a form neatly */
+.form-group {
+  margin-bottom: 0.5rem;
+}
+
+/* Div for form to add car to database  */
+.addCarFormDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 0.5rem;
+  flex: 1;
+  border: 1px solid rgb(104, 103, 98);
+  border-radius: 15px;
+  background-color: white;
+}
+
+/* Div for form to update existing car in database  */
+.updateCarFormDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 0.5rem;
+  flex: 1;
+ border: 1px solid rgb(104, 103, 98);
+ border-radius: 15px;
+ background-color: white;
+}
+
+/* Div for form to update many cars in database  */
+.updateManyFormDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 0.5rem;
+  flex: 1;
+ border: 1px solid rgb(104, 103, 98);
+ border-radius: 15px;
+ background-color: white;
+}
+
+/* Div for buttons to list older cars or all cars  */
+.listCarsButtonsDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  flex: 1;
+  margin: 0.5rem;
+ border: 1px solid rgb(104, 103, 98);
+  border-radius: 15px;
+  background-color: white;
+} 
+
+/* Div for form to delete car from database  */
+.deleteCarFormDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  flex: 1;
+  margin: 0.5rem;
+  border: 1px solid rgb(104, 103, 98);
+  border-radius: 15px;
+  background-color: white;
+}
+
+/* Div for displaying list of cars from database  */
+.displayCarsDiv {
+  display: flex;
+  flex-direction: column; 
+  width: 15rem;
+  padding: 1rem;
+  flex: 1;
+  margin: 0.5rem;
+  border: 1px solid rgb(104, 103, 98);
+  border-radius: 15px;
+  background-color: white;
+}
+
+.header2  {
+  display: flex;
+  flex-direction: column; 
+  width: 100%;
+  padding: 1rem;
+  flex: 1;
+  margin: 0.5rem;
+  border: 1px solid rgb(104, 103, 98);
+  border-radius: 15px;
+  background-color: white;
 }
